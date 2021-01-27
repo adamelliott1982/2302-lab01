@@ -1,0 +1,156 @@
+/* UNIVERSAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito;
+    background: rgb(134, 167, 164);
+    overflow-x: hidden;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+
+
+/* HEADER AND NAV */
+nav{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(22, 78, 50);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+nav ul li{
+    font-size: 3rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
+
+#poster{
+    display: block;
+    height: 90vh;
+    margin: auto;
+}
+
+
+
+/* MAIN SECTION */
+main{
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
+main h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+main p{
+    font-size: 1.5rem;
+}
+
+/* PROS AND CONS */
+#pro-con{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#pro-con h2{
+    padding-bottom: 20px;
+}
+#pro-con ol{
+    font-size: 1.5rem;
+}
+#pro-con ul{
+    list-style-type: square;
+    background: rgb(22, 78, 50);
+    color: white;
+    border-radius: 20px;
+    list-style-position: inside;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* MEDIA PAGE */
+#gallery{
+    display: flex;
+}
+#gallery section h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#gallery img{
+    width: 47%;
+    border-radius: 10px;
+    margin: 1%;
+}
+#gallery img:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
+
+#photos{
+    background: rgb(22, 78, 50);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+#video{
+    background: rgb(22, 78, 50);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+#video iframe{
+    margin: 1%;
+    border-radius: 10px;
+}
+#video iframe:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(22, 78, 50);
+}
