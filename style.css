@@ -8,7 +8,8 @@
 
 body{
     font-family: Nunito;
-    background: rgb(134, 167, 164);
+    background-image: url(./media/sea.jpg);
+    background-size: cover;
     overflow-x: hidden;
 }
 h1{
@@ -65,7 +66,7 @@ main{
     padding: 50px;
     margin: 20px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
 }
 main h1{
     text-align: center;
@@ -163,40 +164,61 @@ main p{
 }
 
 
-
 #questions{
-    /* background: green; */
     width: 47%;
     margin: 1%;
 }
-#questions input{
-    height: 200px;
-    padding: 20px;
-    margin: 10px auto;
-    display: block;
-    width: 90%;
-    border-radius: 20px;
-
-}
-#questions input:focus{
+#questions textarea{
+    width: 100%;
+    border-radius: 10px;
     outline: none;
+    padding: 20px;
 }
 
-button{
+
+
+#submit-button{
     padding: 10px 20px;
     display: block;
     margin: 10px auto;
-    width: 40%;
+    width: 30%;
     border-radius: 10px;
 }
-button:hover{
+#submit-button:hover{
     background: rgb(50, 175, 112);
 }
-button:focus{
+#submit-button:focus{
     outline: none;
 }
-button:active{
+#submit-button:active{
     transform: translateY(2px);
+}
+
+
+
+
+#reset-button{
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    border-radius: 10px;
+}
+#reset-button:hover{
+    background: rgb(50, 175, 112);
+}
+#reset-button:focus{
+    outline: none;
+}
+#reset-button:active{
+    transform: translateY(2px);
+}
+
+
+
+.buttonbox{
+    display: flex;
+    justify-content: space-around;
 }
 
 
