@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 h2{
     font-size: 2.5rem;
@@ -141,6 +141,63 @@ main p{
 
 }
 
+
+/* CONTACT PAGE */
+
+#surveys{
+    display: flex;
+    color: white;
+    padding: 50px;
+    background: rgb(22, 78, 50);
+    border-radius: 20px;
+}
+
+
+#favorite-character{
+    /* background: red; */
+    width: 47%;
+    margin: 1%;
+}
+#favorite-character input{
+    margin: 20px;
+}
+
+
+
+#questions{
+    /* background: green; */
+    width: 47%;
+    margin: 1%;
+}
+#questions input{
+    height: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    display: block;
+    width: 90%;
+    border-radius: 20px;
+
+}
+#questions input:focus{
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(50, 175, 112);
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    transform: translateY(2px);
+}
 
 
 /* FOOTER */
