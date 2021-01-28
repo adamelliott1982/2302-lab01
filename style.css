@@ -143,7 +143,7 @@ main p{
 }
 
 
-/* CONTACT PAGE */
+/*/////////////////////////////// CONTACT PAGE */
 
 #surveys{
     display: flex;
@@ -153,6 +153,9 @@ main p{
     border-radius: 20px;
 }
 
+label{
+    margin-left: -20px;
+}
 
 #favorite-character{
     /* background: red; */
