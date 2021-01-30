@@ -28,37 +28,48 @@
             
             <section id="favorite-character">
                 <h3>Who was your favorite character?</h3> 
-                <form id="character-form" action="">
-                    <input type="radio" name="Jack" id="jack">
+                <form id="character-form" method="POST" action="send-form.js">
+                    <input type="radio" name="character" id="jack">
                     <label for="jack">Jack</label>
-                    <input type="radio" name="Kate" id="kate">
+
+                    <input type="radio" name="character" id="kate">
                     <label for="kate">Kate</label>
-                    <input type="radio" name="Sawyer" id="sawyer">
+
+                    <input type="radio" name="character" id="sawyer">
                     <label for="sawyer">Sawyer</label>
-                    <input type="radio" name="Eko" id="eko"> 
+
+                    <input type="radio" name="character" id="eko"> 
                     <label for="eko">Mr. Eko</label>
-                    <input type="radio" name="Ben" id="ben">
+
+                    <input type="radio" name="character" id="ben">
                     <label for="ben">Ben Linus</label>
-                    <input type="radio" name="John" id="john">
+
+                    <input type="radio" name="character" id="john">
                     <label for="john">John Locke</label>
+
                     <div class="buttonbox">
-                        <input id="submit-button" type="submit" value="Submit Your Choice">
-                        <input id="reset-button" type="reset" value="Reset">
+                        <input id="submit-character" class="submit-button" type="submit" value="Submit Your Choice">
+                        <input id="reset-character" class="reset-button" type="reset" value="Reset">
                     </div>
                 </form>
+
                 <h3>What was your favorite storyline?</h3>
-                <form action="">
-                    <input type="radio" name="others" id="crash">
+                <form id="storyline-form" method="POST" action="send-form.js">
+                    <input type="radio" name="storyline" id="crash">
                     <label for="crash">Opening plane crash</label>
-                    <input type="radio" name="others" id="dharma">
+
+                    <input type="radio" name="storyline" id="dharma">
                     <label for="dharma">Dharma Initiative</label>
-                    <input type="radio" name="others" id="time">
+
+                    <input type="radio" name="storyline" id="time">
                     <label for="time">Time traveling</label>
-                    <input type="radio" name="others" id="escaping">
+
+                    <input type="radio" name="storyline" id="escaping">
                     <label for="escaping">Escaping the islandE</label>
+
                     <div class="buttonbox">
-                        <input id="submit-button" type="submit" value="Submit Your Choice">
-                        <input id="reset-button" type="reset" value="Reset">
+                        <input id="submit-storyline" class="submit-button" type="submit" value="Submit Your Choice">
+                        <input id="reset-storyline" class="reset-button" type="reset" value="Reset">
                     </div>
                 </form>
                 
@@ -69,11 +80,12 @@
             <section id="questions">
                 <h3>Have a burning question?  Fill out the form!</h3>
 
-                <form action="">
-                <textarea name="question-box" id="question-box" cols="30" rows="10"></textarea>
+                <form id="question-form" method="POST" action="send-form.js">
+                <textarea name="question-box" id="question-box" cols="30" rows="10" placeholder="Enter question here..."></textarea>
+
                     <div class="buttonbox">
-                        <input id="submit-button" type="submit" value="Submit Your Question">
-                        <input id="reset-button" type="reset" value="Reset">
+                        <input id="submit-question" class="submit-button" type="submit" value="Submit Your Question">
+                        <input id="reset-question" class="reset-button" type="reset" value="Reset">
                     </div>
                 </form>
 
